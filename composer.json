@@ -1,5 +1,5 @@
 {
-    "name": "chargeover/redlock-php",
+    "name": "mindcreations/redlock-php",
     "description": "Redis distributed locks in PHP",
     "authors": [
         {
@@ -9,6 +9,10 @@
         {
             "name": "Keith Palmer",
             "email": "keith@ChargeOver.com"
+        },
+        {
+            "name": "Stefano Coletta",
+            "email": "creator@mindcreations.com"
         }
     ],
     "require": {
