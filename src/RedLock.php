@@ -122,9 +122,9 @@ class RedLock
 		{
 			foreach ($this->servers as $server)
 			{
-				list($host, $port, $timeout) = $server;
+				list($host, $port, $timeout, $db, $password) = $server;
 
-				$redis = new \Credis_Client($host, $port, $timeout);
+				$redis = new \Credis_Client($host, $port, $timeout, '', $db, $password);
 				//$redis->connect();
 
 				$this->instances[] = $redis;
