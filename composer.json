@@ -1,5 +1,5 @@
 {
-    "name": "mindcreations/redlock-php",
+    "name": "unidata/redlock-php",
     "description": "Redis distributed locks in PHP",
     "authors": [
         {
@@ -12,7 +12,7 @@
         },
         {
             "name": "Stefano Coletta",
-            "email": "creator@mindcreations.com"
+            "email": "s.coletta@unidata.it"
         }
     ],
     "require": {
